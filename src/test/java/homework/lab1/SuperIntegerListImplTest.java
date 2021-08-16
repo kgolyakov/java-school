@@ -1,4 +1,5 @@
-import homework.lab1.SuperIntegerListImpl;
+package homework.lab1;
+
 import org.testng.annotations.Test;
 
 import java.io.ByteArrayOutputStream;
