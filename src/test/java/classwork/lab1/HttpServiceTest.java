@@ -1,5 +1,6 @@
 package classwork.lab1;
 
+import classwork.lab1.enums.HttpService;
 import org.junit.jupiter.api.Test;
 
 import java.io.ByteArrayOutputStream;

@@ -1,4 +1,4 @@
-package classwork.lab1;
+package classwork.lab1.enums;
 
 public class HttpService {
 

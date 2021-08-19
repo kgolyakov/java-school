@@ -1,4 +1,4 @@
-package classwork.lab1;
+package classwork.lab1.enums;
 
 public enum HttpCode {
     INFORMATION(100, 199), SUCCESS(200, 299), REDIRECTION(300, 399),
