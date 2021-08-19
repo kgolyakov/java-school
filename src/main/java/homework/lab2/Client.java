@@ -9,7 +9,7 @@ public class Client {
     private final String name;
     private final int salary;
 
-    public Client(int debt, int bonus, String name, int salary) {
+    private Client(int debt, int bonus, String name, int salary) {
         this.debt = debt;
         this.bonus = bonus;
         this.name = name;

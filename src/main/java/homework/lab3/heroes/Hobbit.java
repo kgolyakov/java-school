@@ -12,7 +12,6 @@ public class Hobbit extends Hero {
 
     @Override
     protected String logAttack(Hero target) {
-        return target.getClass().getName().substring(target.getClass().getName().lastIndexOf('.') + 1)
-                + " " + target.name + " is fine, " + name + " cried instead.";
+        return target.getClass().getSimpleName() + " " + target.name + " is fine, " + name + " cried instead.";
     }
 }

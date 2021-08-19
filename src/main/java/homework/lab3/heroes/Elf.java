@@ -13,11 +13,10 @@ public class Elf extends Hero{
     @Override
     protected String logAttack(Hero target) {
         if (target.power + 1 >= power) {
-            return target.getClass().getName().substring(target.getClass().getName().lastIndexOf('.') + 1) +
+            return target.getClass().getSimpleName() +
                     " " + target.name + " was too strong to be killed, has their power decreased to " + target.power;
         } else {
-            return target.getClass().getName().substring(target.getClass().getName().lastIndexOf('.') + 1) +
-                    " " + target.name + " was killed by " + name;
+            return target.getClass().getSimpleName() + " " + target.name + " was killed by " + name;
         }
     }
 

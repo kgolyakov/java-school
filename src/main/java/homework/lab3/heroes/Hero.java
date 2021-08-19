@@ -21,8 +21,7 @@ public class Hero {
     }
 
     protected String logAttack(Hero target) {
-        return target.getClass().getName().substring(target.getClass().getName().lastIndexOf('.') + 1)
-                + " " + target.name + " is attacked for " + power + " hp, " + (Math.max(target.hp, 0)) + " remaining";
+        return target.getClass().getSimpleName() + " " + target.name + " is attacked for " + power + " hp, " + (Math.max(target.hp, 0)) + " remaining";
     }
 
     public final boolean isAlive(){
