@@ -1,4 +1,4 @@
-package classwork.lab1;
+package classwork.lab1.enums;
 
 import classwork.lab1.enums.HttpService;
 import org.junit.jupiter.api.Test;

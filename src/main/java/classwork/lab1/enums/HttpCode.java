@@ -1,8 +1,11 @@
 package classwork.lab1.enums;
 
 public enum HttpCode {
-    INFORMATION(100, 199), SUCCESS(200, 299), REDIRECTION(300, 399),
-    CLIENT_ERROR(400, 499), SERVER_ERROR(500, 599);
+    INFORMATION(100, 199),
+    SUCCESS(200, 299),
+    REDIRECTION(300, 399),
+    CLIENT_ERROR(400, 499),
+    SERVER_ERROR(500, 599);
 
     final int codeBegin, codeEnd;
     HttpCode(int codeBegin, int codeEnd) {
