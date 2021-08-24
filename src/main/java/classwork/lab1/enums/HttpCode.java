@@ -22,5 +22,4 @@ public enum HttpCode {
         }
         throw new IllegalStateException("code " + statusCode + " unknown");
     }
-
 }
